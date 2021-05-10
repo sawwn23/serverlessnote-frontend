@@ -1,7 +1,8 @@
 const config = {
+    MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
       REGION: "ap-northeast-1",
-      BUCKET: "YOUR_S3_UPLOADS_BUCKET_NAME",
+      BUCKET: "serverlessknx-notes-app-upload",
     },
     apiGateway: {
       REGION: "ap-northeast-1",
